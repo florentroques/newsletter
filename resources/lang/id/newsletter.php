@@ -110,7 +110,7 @@ return [
             'create' => 'Tambah Baru',
             'save'   => 'Simpan',
             'delete' => 'Hapus',
-        ];
+        ],
         'message' => [
             'created' => 'Daftar baru dengan nama :name berhasil dibuat.',
             'deleted' => 'Daftar berhasil dihapus.',

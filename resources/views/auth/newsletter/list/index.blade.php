@@ -46,15 +46,13 @@
                                     <td>{{ $list->subscribers->count() }} {{ $list->subscribers->count() <= 1 ? 'person' : 'people' }}</td>
                                     <td>
                                         @if ($list->id === (int) config('newsletter.list'))
-                                            <span class="label label-success">@@lang('newsletter.lists.yes')</span>
+                                            <span class="label label-success">@lang('newsletter.lists.yes')</span>
                                         @else
-                                            <span class="label label-danger">@@lang('newsletter.lists.no')</span>
+                                            <span class="label label-danger">@lang('newsletter.lists.no')</span>
                                         @endif
                                     </td>
                                     <td>{{ $list->created_at->format(config('date.format')) }}</td>
                                     <td class="text-right">
-                                        <a href="{{ route('admin.list.edit', $list->id) }}" class="btn btn-default edit {{ (! empty($list->user) AND auth()->id() !== $list->user->id AND auth()->user()->group === 'user') ? 'disabled' : '' }}" title="Edit current item"><i class="fa fa-pencil"></i></a>
-                                        <a href="{{ route('admin.list.delete', $list->id) }}" class="btn btn-danger delete {{ (! empty($list->user) auth()->id() !== $list->user->id AND auth()->user()->group === 'user') ? 'disabled' : '' }}" title="Delete current item"><i class="fa fa-trash"></i></a>
                                     </td>
                                 </tr>
                             @endforeach

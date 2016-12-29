@@ -22,8 +22,8 @@ return [
         'message' => 'Pesan',
     ],
     'button'      => [
-
-    ];
+        'send' => 'Kirim Pesan'
+    ],
     'message'     => [
         'sent'         => 'Terimakasih. Pesan berhasil dikirim.',
         'failedToSend' => 'Pesan gagal dikirim. Mohon coba lagi.',
