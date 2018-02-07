@@ -36,13 +36,13 @@ The application demo can be viewed at [http://nawala.laravel.web.id](http://nawa
 * Run a built-in server with commands `php artisan serve` or `php -S localhost:8000`.
 * Access the URL `localhost:8000` through the browser.
 
-## Contoh Data
+## Sample Data
 
-Aplikasi ini menyediakan seeder untuk membuat data dummy menggunakan package Faker. Jalankan perintah di bawah untuk menjalankan generator data dummy.
+This application provides a seeder to create dummy data using the Faker package. Run the command below to run the dummy data generator.
 
 `php artisan db:seed --class=ExampleDataSeeder`
 
-Data yang otomatis dibuat adalah:
+Automatically generated data are:
 
 * Default list
 * Data subscriber
@@ -50,8 +50,8 @@ Data yang otomatis dibuat adalah:
 * Unsubscribe reason
 * Newsletter template
 
-Default login ke aplikasi dengan role admin dapat menggunakan username `admin@mail.com` dan password `admin`. Sedangkan untuk login dengan role user dapat menggunakan username `user@email.com` dan password `user`.
+Default login to app with role admin can use username `admin@mail.com` and password `admin`. As for login with role user can use username `user@email.com` and password `user`.
 
-## Lisensi
+## License
 
 MIT License.
