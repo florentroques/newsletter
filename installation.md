@@ -1,25 +1,28 @@
-# Instalasi
+# Installation
+The following step by step application installation until ready to use, both the level of development and
+production.  
 
-Berikut langkah demi langkah instalasi aplikasi sampai dengan siap digunakan, baik level development maupun production.
+Before following these steps, make sure you are familiar with the command line in Linux and OSX.
+Customize when using a Windows based operating system, as there are several different commands.
 
-Sebelum mengikuti langkah berikut, oastikan sudah familiar dengan command line di Linux maupun OSX. Sesuaikan apabila menggunakan sistem operasi berbasis Windows, karena ada beberapa perintah yang berbeda.
+## Initilization
+1. Copy the app repository with the command ```git clone https: // github.com / arvernester / newsletter```  
+2. Log into the application directory, then update the dependency framework and libraries with the ```composer update``` command  
 
-## Inisiasi
+Up here, basically the application is ready to use. Run buil-tin server with the command ``` php artisan
+serve``` then access through the browser.
 
-1. Salin repositori aplikasi dengan perintah ```git clone https://github.com/arvernester/newsletter```
-2. Masuk ke direktori aplikasi, kemudian perbarui framework dan librari dependensi dengan perintah ```composer update```
+## Install Sample Data
 
-Sampai di sini, pada dasarnya aplikasi siap digunakan. Jalankan buil-tin server dengan perintah ```php artisan serve``` kemudian akses melalui peramban.
+In the application, there is a seeder to create some sample data to facilitate when in the development
+environment. As for generating the sample data, can use the following command:  
 
-## Instal Contoh Data
-Pada aplikasi, terdapat sebuah seeder untuk membuat beberapa contoh data untuk memudahkan ketika dalam environment development. Adapun untuk meng-generate contoh data tersebut, dapat menggunakan perintah berikut:
+``` php artisan db:seed```  
 
-```php artisa db:seed --class=ExampleDataSeeder```
-
-Beberapa contoh data yang akan dibuat secara otomatis adalah:
-- User
+Some examples of data to be created automatically are:
+- Users
 - List (group)
 - Contact
 - Subscriber
-- Newsletter template
+- Newsletter templates
 - Unsubscribe reason
