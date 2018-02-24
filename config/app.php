@@ -64,7 +64,7 @@ return [
     |
      */
 
-    'timezone'        => 'Asia/Jakarta',
+    'timezone'        => 'Europe/Paris',
 
     /*
     |--------------------------------------------------------------------------
@@ -77,7 +77,7 @@ return [
     |
      */
 
-    'locale'          => 'id',
+    'locale'          => 'en',
 
     /*
     |--------------------------------------------------------------------------
@@ -170,7 +170,7 @@ return [
         'GrahamCampbell\Markdown\MarkdownServiceProvider',
         Laravel\Scout\ScoutServiceProvider::class,
         Spatie\Activitylog\ActivitylogServiceProvider::class,
-        DamianTW\MySQLScout\Providers\MySQLScoutServiceProvider::class,
+        Yab\MySQLScout\Providers\MySQLScoutServiceProvider::class,
 
         /*
          * Application Service Providers...
