@@ -1,7 +1,7 @@
 <?php
 
 return [
-        'title' => 'User',
+    'title' => 'User',
     'create' => 'Add User',
     'you' => 'You!',
     'delete' => 'Delete User: name',
@@ -12,7 +12,7 @@ return [
     'logout' => 'Sign out',
     'activity' => 'Activity',
     'form' => [
-            'name' => 'Full Name',
+        'name' => 'Full Name',
         'email' => 'Email Address',
         'group' => 'Groups',
         'status' => 'Status',
@@ -24,7 +24,7 @@ return [
         'log' => 'Note',
     ],
     'button' => [
-            'save' => 'Save Users',
+        'save' => 'Save Users',
         'search' => 'Search',
         'delete' => 'Delete',
         'close' => 'Close',
@@ -39,7 +39,7 @@ return [
         'edited' => 'User: name updated successfully',
     ],
     'log' => [
-            'edit' => 'Change user data.',
+        'edit' => 'Change user data.',
         'creat' => 'Create user data.',
         'view' => 'Viewing user data.',
         'logout' => 'Exit from app system.',

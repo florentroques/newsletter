@@ -46,7 +46,7 @@ class User extends Authenticatable
     {
         return [
             'admin' => 'Administrator',
-            'user'  => 'Pengguna',
+            'user'  => 'User',
         ];
     }
 
