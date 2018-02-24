@@ -40,7 +40,7 @@ The application demo can be viewed at [http://nawala.laravel.web.id](http://nawa
 
 This application provides a seeder to create dummy data using the Faker package. Run the command below to run the dummy data generator.
 
-`php artisan db:seed --class=ExampleDataSeeder`
+`php artisan db:seed`
 
 Automatically generated data are:
 
@@ -50,7 +50,7 @@ Automatically generated data are:
 * Unsubscribe reason
 * Newsletter template
 
-Default login to app with role admin can use username `admin@mail.com` and password `admin`. As for login with role user can use username `user@email.com` and password `user`.
+Default login to app with role admin can use username `admin@email.com` and password `admin`. As for login with role user can use username `user@email.com` and password `user`.
 
 ## License
 
