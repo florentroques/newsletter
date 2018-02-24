@@ -10,7 +10,9 @@ Simple newsletter app using Laravel framework.
 
 ![Screenshot](https://s16.postimg.org/tzvo9b7ut/Screenshot_from_2016_10_08_14_57_19.png)
 
+<!-- Demo not available
 The application demo can be viewed at [http://nawala.laravel.web.id](http://nawala.laravel.web.id).
+-->
 
 ## System Requirement
 
