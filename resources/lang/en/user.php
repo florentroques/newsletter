@@ -1,0 +1,47 @@
+<?php
+
+return [
+        'title' => 'User',
+    'create' => 'Add User',
+    'you' => 'You!',
+    'delete' => 'Delete User: name',
+    'viewProfile' => 'View Profile: name',
+    'edit' => 'Change User: name',
+    'profile' => 'My Profile',
+    'changePassword' => 'Change Password',
+    'logout' => 'Sign out',
+    'activity' => 'Activity',
+    'form' => [
+            'name' => 'Full Name',
+        'email' => 'Email Address',
+        'group' => 'Groups',
+        'status' => 'Status',
+        'list' => 'Number of List',
+        'joinDate' => 'Join Date',
+        'action' => 'Action',
+        'keyword' => 'Keywords',
+        'date' => 'Date',
+        'log' => 'Note',
+    ],
+    'button' => [
+            'save' => 'Save Users',
+        'search' => 'Search',
+        'delete' => 'Delete',
+        'close' => 'Close',
+        'update' => 'Update Users',
+        'back' => 'Back',
+    ],
+    'message' => [
+        'created' => 'Users with name: name successfully added.',
+        'deleted' => 'Users with name: name successfully deleted.',
+        'deleteWarning' => 'Are you sure you want to delete this user? This action can not be undone. ',
+        'notFound' => 'User not found.',
+        'edited' => 'User: name updated successfully',
+    ],
+    'log' => [
+            'edit' => 'Change user data.',
+        'creat' => 'Create user data.',
+        'view' => 'Viewing user data.',
+        'logout' => 'Exit from app system.',
+    ],
+];
